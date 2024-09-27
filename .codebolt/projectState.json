@@ -1,3 +1,60 @@
 {
-  "activeAgent": false
+  "activeAgent": false,
+  "currentLayout": {
+    "grid": {
+      "root": {
+        "type": "branch",
+        "data": [
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Code",
+                "Terminal"
+              ],
+              "activeView": "Terminal",
+              "id": "1"
+            },
+            "size": 640
+          },
+          {
+            "type": "leaf",
+            "data": {
+              "views": [
+                "Preview"
+              ],
+              "activeView": "Preview",
+              "id": "3"
+            },
+            "size": 640
+          }
+        ],
+        "size": 570
+      },
+      "width": 1280,
+      "height": 570,
+      "orientation": "HORIZONTAL"
+    },
+    "panels": {
+      "Code": {
+        "id": "Code",
+        "contentComponent": "Code",
+        "title": "Code",
+        "renderer": "always"
+      },
+      "Terminal": {
+        "id": "Terminal",
+        "contentComponent": "Terminal",
+        "title": "Terminal",
+        "renderer": "always"
+      },
+      "Preview": {
+        "id": "Preview",
+        "contentComponent": "Preview",
+        "title": "Preview",
+        "renderer": "always"
+      }
+    },
+    "activeGroup": "1"
+  }
 }
